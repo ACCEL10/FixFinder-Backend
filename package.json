@@ -1,0 +1,53 @@
+{
+  "name": "fixfinder-system",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "server": "tsx server.ts",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google-cloud/vision": "^5.1.0",
+    "@react-google-maps/api": "^2.20.6",
+    "@types/form-data": "^2.5.2",
+    "@types/google-maps-react": "^2.0.5",
+    "@types/react-bootstrap": "^1.1.0",
+    "axios": "^1.9.0",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase": "^11.10.0",
+    "form-data": "^4.0.2",
+    "multer": "^1.4.5-lts.2",
+    "node-fetch": "^2.7.0",
+    "path": "^0.12.7",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.6.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.14.1",
+    "@types/node-fetch": "^2.6.12",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
+  }
+}
